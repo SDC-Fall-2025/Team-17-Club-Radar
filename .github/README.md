@@ -1,3 +1,14 @@
+This project has been abandoned on 2025 December 11.
+Vercel builds will be destroyed by the end of this year.
+
+After that, all refs will be uploaded to this repository,
+this repository will be archived, while all other repositories
+will be deleted.  [**This includes the club edit site.**]
+
+There will be no notices given.  I will do this as soon as
+I am available.
+
+
 # Club Radar
 
 This is a Svelte web site over Python WSGI, specifically
@@ -9,12 +20,11 @@ SQL clauses used to create it can be found at [api/var](https://github.com/SDC-F
 
 *   Web site: <https://clubradar.endfindme.com/> or
     <https://src-wisc-sdc-fa25-team.vercel.app/>.
+    [**TO BE REMOVED**]
 *   Web docs: [[frontend](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/master/web/README.md)] [[backend](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/master/api/README.md)]
 
 
-I use Vercel to deploy the web site.  By accessing
-you agree to the relevant terms of privacy policy.  See
-<https://team.endfindme.com/wisc/sdc/fa-25/public/privacy-policy>.
+I use Vercel to deploy the web site.
 
 
 ## Blurb
@@ -44,21 +54,19 @@ The search bar doesn't even submit the query when you hit Enter.
 
 ## Authorship
 
-I (Ethan) have been the sole contributor on this repository,
-despite my best effort to make it as clear and welcoming as
-possible to contribute.  The others weren't so helpful, not
-to mention two team members have quit without an effortful
-explanation or a proper apology.  While they are entitled to
-do what they want, I am still rather disappointed.  If nobody
-contributes by the end of this semester, I will be removing
-"Team" from the copyright holder entirely and transferring it
-to myself.
+I have been the sole contributor on this repository, despite
+my best effort to make it as clear and welcoming as possible
+to contribute.  The others weren't so helpful, not to mention
+two team members have quit without an effortful explanation
+or a proper apology.  While they are entitled to do what they
+want, I am still rather disappointed.  If any one of them
+dares to refer to this project, I would be more than happy if
+you contacted me so I can un-recommend them as hard as I can.
 
 
 ## License
 
 [MIT](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/master/LICENSE) since [#2](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/issues/2) and [0934abc](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/commit/0934abcf13d14c008b72c15b3218940f5f802d50).
-
 
 
 ## Contributing
