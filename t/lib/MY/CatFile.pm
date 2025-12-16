@@ -135,7 +135,7 @@ sub cat
 	# practice.  See "Re: Best way to handle readline errors?":
 	# <https://www.perlmonks.org/?node_id=583456>)
 	defined (my $info = <$cat_rdr>) or croak "cat-file $pathspec: "
-		. "pipe read: @{eof ? 'EOF' : qq[$!]}";
+		. "pipe read: @{[eof ? 'EOF' : qq[$!]]}";
 	chomp $info;
 
 	unless ($info =~ /\A([[:xdigit:]]+) (blob|tree|tag|commit|submodule)(?: ([[:digit:]]+))?\z/) {
