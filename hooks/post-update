@@ -1,0 +1,7 @@
+#!/bin/sh
+unset CDPATH
+GIT_DIR="$(git rev-parse --git-dir)"
+cd "$GIT_DIR"
+git update-server-info
+git pack-refs --all
+find . -type d -path '*/refs/info' -delete
