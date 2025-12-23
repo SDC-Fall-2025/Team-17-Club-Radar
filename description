@@ -1,1 +1,26 @@
-the everything repository for SDC Fall 2025
+https://github.com/SDC-Fall-2025/Team-17
+
+This is SDC Fall 2025, Team 17 repository info.
+
+For infrastructure of this repository, read `info/hier'.
+Most notably:
+
+  + For source code of the project itself, checkout HEAD.
+  + For source code of the team Wiki site, checkout `refs/heads/gh-pages'.
+  + For archive of the wisc-sdc-fa25-team "mailing" list, checkout
+    `refs/heads/list/master'.
+  + For a best-effort mirror of every GitWeb I have published branches in this
+    repository on, checkout `refs/remotes/<domain>/<path>.git/<branch name>'.
+    As this is a mirror, deleted repositories will be synchronized as ref
+    deletions, in which case you have to manually dereference the relevant
+    commit ID from this info ref to retrieve the commit at the tip of what
+    once was the branch using said ID.  This is a difficult process -- but
+    know that repositories are deleted for a reason (like merging branches
+    that were once useful to host in separate repositories, but are less so
+    now that the whole project is archived and inactively updated anyways. :)
+
+This repository is Copyright (c) 2025 by me (Ethan Meng).
+I am the sole holder of the copyright, intellectual and all, since
+no other team member has contributed any more than merely existing.
+I permit distribution of this repository under terms of the
+MIT license; read COPYRIGHT for said terms.
