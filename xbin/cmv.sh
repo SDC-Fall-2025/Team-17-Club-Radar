@@ -12,12 +12,12 @@ Gmail=$(git config gitweb.commit-email)
 	export GIT_AUTHOR_EMAIL=$Gmail GIT_COMMITTER_EMAIL=$Gmail
 	~/tree/utils/store-meta "$@" -- . refs/info/view
 )
-~/tree/utils/store-meta "$@" -- .
-git commit-tree \
+{
+	git commit-tree \
 	-p refs/info/self \
 	-p refs/info/view \
 	refs/info/self^{tree} \
-	-m 'Change my view!' \
-> MERGE_HEAD
+	-m 'Change my view!'
+} > MERGE_HEAD
 trap 'rm -f MERGE_HEAD' EXIT
 git update-ref refs/info/self MERGE_HEAD
