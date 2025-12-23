@@ -16,7 +16,7 @@ Gmail=$(git config gitweb.commit-email)
 	git commit-tree \
 	-p refs/info/self \
 	-p refs/info/view \
-	refs/info/view^{tree} \
+	refs/info/self^{tree} \
 	-m 'Change my view!'
 } > MERGE_HEAD
 trap 'rm -f MERGE_HEAD' EXIT
